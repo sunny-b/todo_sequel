@@ -3,7 +3,7 @@ require "sinatra/reloader"
 require "sinatra/content_for"
 require "tilt/erubis"
 
-require_relative 'sequel_persistence'
+require_relative 'lib/sequel_persistence'
 
 configure do
   enable :sessions
