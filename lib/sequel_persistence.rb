@@ -53,16 +53,3 @@ class SequelPersistence
     DB[:todos].where(list_id: list_id)
   end
 end
-
-
-class People
-  @@persons = 0
-
-  def initialize
-    @@person += 1
-  end
-
-  def self.count
-    @@persons
-  end
-end

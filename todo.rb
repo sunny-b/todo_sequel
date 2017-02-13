@@ -13,7 +13,7 @@ end
 
 configure(:development) do
   require 'sinatra/reloader'
-  also_reload "sequel_persistence.rb"
+  also_reload "lib/sequel_persistence.rb"
 end
 
 helpers do
